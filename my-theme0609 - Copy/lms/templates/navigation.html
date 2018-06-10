@@ -156,7 +156,7 @@ site_status_msg = get_site_status_msg(course_id)
 			  </li>
 			% else:
 			  <li class="item nav-global-04">
-				<a class="btn-neutral btn-register" style="padding:10px 20px;" href="/register${login_query()}">${_("註冊")}</a>
+				<a class="btn-neutral btn-register" style="padding:10px 20px;" href="/register${login_query()}">${_("Register Now")}</a>
 			  </li>
 			% endif
 		% endif
@@ -165,7 +165,7 @@ site_status_msg = get_site_status_msg(course_id)
               % if course and settings.FEATURES.get('RESTRICT_ENROLL_BY_REG_METHOD') and course.enrollment_domain:
                 <a class="btn btn-primary" href="${reverse('course-specific-login', args=[course.id.to_deprecated_string()])}${login_query()}">${_("Sign in")}</a>
               % else:
-                <a class="btn btn-primary" href="/login${login_query()}">${_("登入")}</a>
+                <a class="btn btn-primary" href="/login${login_query()}">${_("Sign in")}</a>
               % endif
             % endif
           </li>
