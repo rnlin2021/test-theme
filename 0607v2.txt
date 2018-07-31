@@ -1,3 +1,0 @@
-.home > header {
-    background: url(http://www.nctu.edu.tw/images/background_image/112-compressor.jpg);
-}http://iisfordoor.southeastasia.cloudapp.azure.com/eGuardTablet1/banner22.png
